@@ -1,0 +1,291 @@
+body{
+  width: 1440px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+  color: #3C9F8F ;
+}
+
+h2{
+  font-size:30px;
+  width: 600px;
+  text-shadow: 1px 0 black;
+  font-family:'Raleway';
+  font-weight: bolder;
+}
+
+header{
+  display: flex;    
+  justify-content: space-between;    
+  background-color: white; 
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 40px;
+  background-color: white;
+}
+
+header img{
+  width: 180px;
+}
+
+.navegacion-principal {
+  display:flex;        
+  justify-content: space-between;
+  width: 150px;
+  font-size: 12px;
+  align-items: center;
+
+}
+
+.navegacion-principal a {
+  color:#585989;
+  text-decoration: none;
+  font-family: 'Raleway';  
+  font-weight: bold;
+}
+
+.navegacion-principal a:hover {
+  color:#F6F6FE
+}
+
+.Sec-1{
+  background-color: white;
+  padding-left: 100px;
+  padding-bottom: 300px;
+}
+
+.Sec-1 img{
+  width: 550px;
+  position: relative;
+  left: 690px;
+  bottom: 100px;
+}
+
+.Text-1{
+  font-size:40px;
+  width: 600px;
+  position: relative;
+  top:200px;
+  font-family:'Open Sans',serif;
+  font-weight: 700;
+  text-shadow: 1px 0 black;
+}
+.Text-2{
+  font-size:16px;
+  width: 480px;
+  position: relative;
+  top: 250px;;
+  font-family:'Open Sans';
+  font-weight: 400;
+}
+
+.solicitud-1{
+  position: relative;
+  top: 300px;
+}
+.Boton-1{
+  background-color: #3065F8; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family:'Raleway';
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 12px;
+  width: 180px;
+  margin-left: 40px;
+  font-weight: 900;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.Correo-1{
+  padding: 12px;
+  padding-right: 150px;
+  border-radius: 6px;
+  font-weight: 400;
+  border-width: 0.5px;
+  border: solid #8a8989fb ;
+}
+
+.Sec-2{
+  background-color: #F6F6FE;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 80px;
+}
+
+.Sec-2 img{
+width: 620px;
+position: relative;
+float: right;
+}
+
+.S2-T{
+  background-color: #F6F6FE;
+  width: 620px;
+  height: 460px;
+}
+
+.S2-T1{
+  font-size:15.5px;
+  font-family:'Open Sans';
+  font-weight: 400;
+  color: #585989;
+}
+.Hyper{
+  font-size:15.5px;
+  font-family:'Raleway';
+  font-weight: 400;
+  color: #3C9F8F;
+  border-bottom: 1px solid #3C9F8F;
+  width: 173px;
+}
+
+.papu{
+  position:relative;
+  top: 2px;
+  right: 0px;
+}
+
+.whitebox{
+  background-color: white;
+  height: 110px;
+  width: 300px;
+  border-radius: 8px;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: "Open Sans";
+  align-items: center;
+  padding-right: 10px;
+  box-shadow: 1px 1px 6px #BFBFBF;
+
+}
+
+.whitebox img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.whitebox b{  
+  font-weight: bolder;
+}
+
+.User{
+  font-size: 8px;
+}
+
+.Sec-3{
+  background-color: #585989;
+  height: 210px;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.S3-T{
+  color: white;
+  font-family: 'Open Sans';
+  width: 520px;
+  font-size: 16px; 
+  font-weight: 400; 
+}
+
+.S3-T1{
+  font-weight: 700;
+  font-size: 32px;
+
+}
+
+.Form{
+  position: relative;
+  left: 750px;
+  bottom: 110px;
+  width: 450px;
+
+}
+
+.Correo-2{
+  padding: 12px;
+  padding-right: 300px;
+  border-radius: 6px;
+  border-width: 1px;
+  border: solid #8a8989fb ;
+}
+
+
+.B2{
+  background-color: #3065F8; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family:'Raleway';
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 12px;
+  width: 180px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+footer{
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  height: 400px;
+  background-color: #070439;
+  font-weight: 400;
+  color: white;
+}
+
+footer img{
+  width: 180px;
+}
+
+.infooter{
+  font-family: 'Open Sans';
+  position: relative;
+  width: 1240px;
+  height: 200px;
+}
+
+.Hilera2{
+  position: relative;
+  width: 100px;
+  left: 300px;
+  bottom: 66px;
+}
+.Hilera3{
+  position: relative;
+  width: 100px;
+  left:600px;
+  bottom: 236px;
+}
+
+.Redes{
+  width: 81px;
+  float:right;
+  position: relative;
+  right: 220px;
+  bottom: 349px;
+}
+
+
+
+
+
+
